@@ -17,6 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      ROLLUP_SKIP_NODEJS_NATIVE: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
