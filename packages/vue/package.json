@@ -9,6 +9,9 @@
     "notification",
     "vue"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "preBuild": "turbo run lint && turbo run format",
     "build": "vite build",
