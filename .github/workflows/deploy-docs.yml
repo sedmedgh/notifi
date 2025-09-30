@@ -36,6 +36,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Ensure Rollup native binary (linux-x64-gnu)
+        run: npm i -D @rollup/rollup-linux-x64-gnu@latest
+
       - name: Build packages
         run: npm run build
 
