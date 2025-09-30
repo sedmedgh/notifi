@@ -1,12 +1,15 @@
 {
   "name": "@notifi/core",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "vite build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "release": "node ../../scripts/release.cjs"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",

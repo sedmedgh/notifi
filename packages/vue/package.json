@@ -55,13 +55,12 @@
     }
   },
   "dependencies": {
-    "@notifi/core": "latest"
+    "@notifi/core": "^0.0.1"
   },
   "devDependencies": {
     "@types/node": "22.16.5",
     "@vitejs/plugin-vue": "6.0.0",
     "eslint-config-custom": "*",
-    "@notifi/core": "*",
     "npm-run-all2": "8.0.4",
     "tsconfig": "*",
     "vue-tsc": "2.2.12"
