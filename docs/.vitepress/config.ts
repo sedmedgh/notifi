@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 
+
 export default defineConfig({
+  base: '/notifi/',
   title: 'Notifi',
   description: 'Lightweight, flexible notifications',
   lang: 'en-US',
