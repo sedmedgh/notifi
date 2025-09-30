@@ -1,0 +1,16 @@
+{
+  "name": "tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "sedmedgh",
+  "devDependencies": {
+    "@tsconfig/node22": "22.0.2",
+    "@vue/tsconfig": "0.7.0",
+    "@types/node": "22.16.5",
+    "typescript": "~5.4.2"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@notifi/core",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "author": "sedmedgh  <sedmedgh@gmail.com>",
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "csstype": "^3.1.3"
+  }
+}

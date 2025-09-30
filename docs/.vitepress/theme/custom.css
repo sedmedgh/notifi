@@ -1,0 +1,20 @@
+/*:root {*/
+/*    !*--vp-sidebar-width: 200px; !* عرض دلخواه کمتر از ۲۷۲px *!*!*/
+/*max(32px, calc((100% - (var(--vp-layout-max-width) - 200px)) / 2))*/
+/*}*/
+/*@media (min-width: 1440px) {*/
+/*    .VPSidebar {*/
+/*        padding-left: 20px !important;*/
+/*        width: 200px !important;*/
+/*    }*/
+/*}*/
+:root {
+    --vp-home-hero-name-color:#f1b504;
+    --vp-button-brand-bg:#f1b504;
+    --vp-button-brand-hover-bg:#ca9702;
+    --vp-button-brand-active-bg:#906d04;
+    --vp-button-brand-text:#1b1721;
+    --vp-button-brand-hover-text:#1b1721;
+    --vp-button-brand-active-text:#1b1721;
+    --vp-c-brand-1:#f1b504;
+}

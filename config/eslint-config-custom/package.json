@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-custom",
+  "license": "MIT",
+  "version": "0.0.0",
+  "private": true,
+  "author": "lotfi",
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.10.4",
+    "@typescript-eslint/parser": "6.21.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "@vercel/style-guide": "5.2.0",
+    "@vue/eslint-config-typescript": "12.0.0",
+    "eslint": "8.57.1",
+    "eslint-config-turbo": "2.3.3",
+    "eslint-plugin-vue": "9.32.0",
+    "prettier": "^3.4.2",
+    "eslint-plugin-stylelint": "^0.1.1",
+    "stylelint": "^16.12.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-less": "^3.0.1"
+  }
+}

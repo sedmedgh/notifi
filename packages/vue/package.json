@@ -1,0 +1,69 @@
+{
+  "name": "@notifi/vue",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "headless",
+    "notification",
+    "notification",
+    "vue"
+  ],
+  "scripts": {
+    "preBuild": "turbo run lint && turbo run format",
+    "build": "vite build",
+    "release": "node ../../scripts/release.cjs",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "./dist",
+    "volar.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    },
+    "./nuxt": {
+      "types": "./dist/nuxt.d.ts",
+      "import": "./dist/nuxt/index.js",
+      "require": "./dist/nuxt/index.umd.cjs"
+    }
+  },
+  "author": "sedmedgh  <sedmedgh@gmail.com>",
+  "peerDependencies": {
+    "vue": "^3.5.14",
+    "@nuxt/kit": "^3.0.0",
+    "nuxt": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": false
+    },
+    "@nuxt/kit": {
+      "optional": true
+    },
+    "nuxt": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@notifi/core": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "22.16.5",
+    "@vitejs/plugin-vue": "6.0.0",
+    "eslint-config-custom": "*",
+    "@notifi/core": "*",
+    "npm-run-all2": "8.0.4",
+    "tsconfig": "*",
+    "vue-tsc": "2.2.12"
+  }
+}

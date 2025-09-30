@@ -1,0 +1,9 @@
+{
+  "extends": "tsconfig/vite.json",
+  "include": [
+    "vite.config.*",
+    "exports.json",
+    "package.json"
+  ],
+  "exclude": ["setup.ts", "uno.config.ts"]
+}
