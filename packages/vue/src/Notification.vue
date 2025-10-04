@@ -390,6 +390,7 @@ const Render = () => {
         onCloseNotification,
         onUpdateHeight,
         duration: duration.value,
+        remainingTime: remainingTime.value,
       } as NotificationComponentProps,
     )
   }

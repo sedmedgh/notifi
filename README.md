@@ -10,6 +10,8 @@ Headless notifications manager. Bring your own UI.
 - **Core + adapters**: Framework-agnostic core with framework adapters.
 - **Today**: Vue 3 adapter. React/Svelte planned.
 
+📚 **[Documentation](https://sedmedgh.github.io/notifi/)** • 🐛 **[Issues](https://github.com/sedmedgh/notifi/issues)**
+
 ## Packages
 
 - `packages/core`: Framework-agnostic core state and types

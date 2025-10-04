@@ -1,6 +1,7 @@
 {
   "name": "@notifi/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Framework-agnostic, headless notifications core",
   "private": false,
   "scripts": {
     "build": "vite build",
@@ -27,6 +28,15 @@
   ],
   "type": "module",
   "author": "sedmedgh  <sedmedgh@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sedmedgh/notifi.git"
+  },
+  "homepage": "https://sedmedgh.github.io/notifi/",
+  "bugs": {
+    "url": "https://github.com/sedmedgh/notifi/issues"
+  },
   "devDependencies": {
     "eslint-config-custom": "*",
     "tsconfig": "*",

@@ -1,6 +1,7 @@
 {
   "name": "@notifi/vue",
   "version": "0.0.1",
+  "description": "Vue 3 adapter for Notifi - headless notifications",
   "private": false,
   "license": "MIT",
   "keywords": [
@@ -9,6 +10,14 @@
     "notification",
     "vue"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sedmedgh/notifi.git"
+  },
+  "homepage": "https://sedmedgh.github.io/notifi/",
+  "bugs": {
+    "url": "https://github.com/sedmedgh/notifi/issues"
+  },
   "publishConfig": {
     "access": "public"
   },

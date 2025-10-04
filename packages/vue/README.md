@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/logo.svg" alt="Notifi logo" width="120" />
+  <img src="https://github.com/sedmedgh/notifi/raw/main/docs/public/logo.svg" alt="Notifi logo" width="120" />
 </p>
 
 # @notifi/vue
@@ -9,6 +9,8 @@ Vue 3 adapter for Notifi (headless notifications manager).
 - Headless: no styles provided
 - Components: `NotifContainer`
 - API: `notif`
+
+📚 **[Documentation](https://sedmedgh.github.io/notifi/)** • 🐛 **[Issues](https://github.com/sedmedgh/notifi/issues)**
 
 ## Install
 

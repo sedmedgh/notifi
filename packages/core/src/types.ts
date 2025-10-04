@@ -112,4 +112,6 @@ export interface NotificationComponentProps {
   onCloseNotification: () => void;
   onUpdateHeight: () => void;
   duration: number;
+  /* the remaining time of the notification is not reactive (update on pause and resume) */
+  remainingTime: number;
 }
